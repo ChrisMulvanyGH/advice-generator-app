@@ -21,3 +21,20 @@ font-weight: 800
     /* -- Font Sizes -- */
     --adviceQuote: 1.75rem;
 }
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: var(--mobile);
+    margin: 0 auto;
+}
