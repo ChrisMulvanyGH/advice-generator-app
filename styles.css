@@ -1,0 +1,23 @@
+/* - Fonts - */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+/*
+font-family: 'Manrope', sans-serif;
+font-weight: 800
+*/
+
+/* - Variables - */
+:root {
+    /* -- Colours -- */
+    --lightCyan: hsl(193, 38%, 86%);
+    --neonGreen: hsl(150, 100%, 66%);
+    ---grayishBlue: hsl(217, 19%, 38%);
+    --darkGrayishBlue: hsl(217, 19%, 24%);
+    --darkBlue: hsl(218, 23%, 16%);
+
+    /* -- Device Sizes -- */
+    --mobile: 23.4375em; /* 375px*/
+    --desktop: 90em; /* 1440px */
+
+    /* -- Font Sizes -- */
+    --adviceQuote: 1.75rem;
+}
