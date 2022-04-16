@@ -8,17 +8,18 @@
   
   <title>Frontend Mentor | Advice generator app</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
 </head>
 <body>
   <main>
     <div class="container">
       <div class="card">
-        <h1 class="card__title">Advice #117</h1>
-        <q class="card__quote">It is easy to sit up and take notice, what's difficult is getting up and taking action.</q>
+        <h1 class="card__title">Advice #<span id="adviceId"></span></h1>
+        <q class="card__quote" id="cardQuote">It is easy to sit up and take notice, what's difficult is getting up and taking action.</q>
         <div class="card__seperator">
           <img src="./images/pattern-divider-mobile.svg" alt="Card Seperator">
         </div>
-        <button class="card__icon">
+        <button class="card__icon" id="diceBtn">
           <img class="icon-dice" src="./images/icon-dice.svg" alt="Car Dice Icon"></a>
         </button>
       </div>
