@@ -28,10 +28,10 @@ Users should be able to:
 ### Screenshot
 
 #### Mobile Screenshot
-![mobile-screenshot.png](mobile-screenshot.png)
+![mobile-sol-screenshot.png](mobile-sol-screenshot.png)
 
 #### Desktop Screenshot
-![desktop-screenshot.png](desktop-screenshot.png)
+![desktop-sol-screenshot.png](desktop-sol-screenshot.png)
 
 ### Links
 
