@@ -17,18 +17,20 @@
         <h1 class="card__title">Advice #<span id="adviceId"></span></h1>
         <q class="card__quote" id="cardQuote"></q>
         <div class="card__seperator">
-          <img src="./images/pattern-divider-mobile.svg" alt="Card Seperator">
+         <picture>
+           <source srcset="./images/pattern-divider-desktop.svg" media="(min-width: 1440px)"/>
+           <img class="seperator-img" src="./images/pattern-divider-mobile.svg" alt="Card Seperator">
+         </picture>
         </div>
         <button class="card__icon" id="diceBtn">
           <img class="icon-dice" src="./images/icon-dice.svg" alt="Car Dice Icon"></a>
         </button>
       </div>
     </div>
-<!-- 
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://www.chrismulvany.com">Chris Mulvany</a>.
-    </div> -->
+    </div>
   </main>
 </body>
 </html>
